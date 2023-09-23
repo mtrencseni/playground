@@ -184,7 +184,7 @@ unsigned process_block(
 }
 
 void process_stream(std::istream* is, counter_vector& counters) {
-    const int block_read = 16*1024;
+    const int block_read = 128*1024;
     char buf[block_read+sizeof(wchar_t)];
     int n_remaining = 0;
     while (is->peek() != EOF) {
