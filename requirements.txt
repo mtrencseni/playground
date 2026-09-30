@@ -1,0 +1,4 @@
+# Runtime deps for playground (Python 3.13, Debian 13). Recreate with:
+#   python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+numpy==2.5.3
+scipy==1.18.1
